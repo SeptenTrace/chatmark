@@ -74,10 +74,10 @@ ChatGPT adapter -> Conversation model -> Markdown converter -> browser download
 
 ## Roadmap
 
-- Claude adapter
-- Gemini adapter
-- Export formats beyond Markdown
-- Optional asset bundling for downloaded images
+- [ ] Claude adapter
+- [ ] Gemini adapter
+- [ ] Export formats beyond Markdown
+- [ ] Optional asset bundling for downloaded images
 
 ## License
 
