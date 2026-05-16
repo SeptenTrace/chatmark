@@ -1,6 +1,16 @@
 # Install ChatMark
 
-ChatMark is a Manifest V3 browser extension. During early development, install it as an unpacked extension.
+ChatMark is a Manifest V3 browser extension. Install it from a release zip, or build it locally and load the generated extension as an unpacked extension.
+
+## Install From Release Zip
+
+1. Download the latest zip from [GitHub Releases](https://github.com/SeptenTrace/chatmark/releases/latest).
+2. Unzip it to a local folder.
+3. Open `chrome://extensions` or `arc://extensions`.
+4. Enable **Developer mode**.
+5. Click **Load unpacked**.
+6. Select the unzipped folder.
+7. Open or refresh `https://chatgpt.com/`.
 
 ## Build From Source
 

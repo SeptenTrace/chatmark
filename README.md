@@ -18,6 +18,10 @@ ChatMark is a lightweight browser extension for saving long AI conversations wit
 
 ## Install
 
+Download the latest zip from [GitHub Releases](https://github.com/SeptenTrace/chatmark/releases/latest), unzip it, and load the extracted folder as an unpacked extension.
+
+Or build it locally:
+
 ```bash
 pnpm install
 pnpm run build
