@@ -1,0 +1,29 @@
+{
+  "name": "chatmark",
+  "type": "module",
+  "version": "0.1.0",
+  "packageManager": "pnpm@10.33.2",
+  "description": "Export AI chat conversations to Markdown from supported websites.",
+  "license": "MIT",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "package": "pnpm run build && node scripts/package.mjs",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check": "pnpm run lint && pnpm run test && pnpm run typecheck && pnpm run build"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^9.0.0",
+    "@types/chrome": "^0.1.31",
+    "@vitest/eslint-plugin": "^1.4.3",
+    "esbuild": "^0.27.2",
+    "eslint": "^10.3.0",
+    "eslint-plugin-format": "^2.0.1",
+    "fflate": "^0.8.2",
+    "jsdom": "^29.1.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  }
+}
